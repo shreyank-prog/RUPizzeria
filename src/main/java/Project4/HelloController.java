@@ -1,4 +1,4 @@
-package com.example.finalrupizzeria;
+package Project4;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

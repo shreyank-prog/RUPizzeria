@@ -1,4 +1,4 @@
-package com.example.finalrupizzeria;
+package Project4;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

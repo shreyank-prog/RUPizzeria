@@ -3,6 +3,6 @@ module com.example.finalrupizzeria {
     requires javafx.fxml;
 
 
-    opens com.example.finalrupizzeria to javafx.fxml;
-    exports com.example.finalrupizzeria;
+    opens Project4 to javafx.fxml;
+    exports Project4;
 }
