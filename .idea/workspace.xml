@@ -4,17 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae764020-074c-4c46-892f-b9a42e78da65" name="Changes" comment="Testing repo">
+    <list default="true" id="ae764020-074c-4c46-892f-b9a42e78da65" name="Changes" comment="Added java files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalrupizzeria/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project4/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finalrupizzeria/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project4/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/finalrupizzeria/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Project4/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Project4/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project4/RUPizzeriaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Project4/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Project4/MainView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,19 +29,22 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HHc77z2JDagdHYxrMer18OtkQk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/shrey/IdeaProjects/FinalRUPizzeria"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Project4.HelloApplication">
+  <component name="RunManager" selected="Application.RUPizzeriaMain">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.finalrupizzeria.HelloApplication" />
       <module name="FinalRUPizzeria" />
@@ -49,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Project4.HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project4.HelloApplication" />
+    <configuration name="RUPizzeriaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project4.RUPizzeriaMain" />
       <module name="FinalRUPizzeria" />
       <extension name="coverage">
         <pattern>
@@ -64,7 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Project4.HelloApplication" />
+        <item itemvalue="Application.RUPizzeriaMain" />
         <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
@@ -85,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667957352563</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added java files">
+      <created>1667958174010</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667958174010</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,7 +116,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Testing repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing repo" />
+    <MESSAGE value="Added java files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added java files" />
   </component>
 </project>
