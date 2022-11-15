@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae764020-074c-4c46-892f-b9a42e78da65" name="Changes" comment="Added java files">
+    <list default="true" id="ae764020-074c-4c46-892f-b9a42e78da65" name="Changes" comment="Started Application">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Project4/chicago.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Project4/current.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Project4/ny.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Project4/store.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Project4/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project4/RUPizzeriaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Project4/RUPizzeriaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project4/RUPizzeriaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Project4/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Project4/MainView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +44,10 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/shrey/IdeaProjects/FinalRUPizzeria"
+    "last_opened_file_path": "C:/Users/shrey/IdeaProjects/ProjectNumber3",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4"
   }
 }]]></component>
   <component name="RunManager" selected="Application.RUPizzeriaMain">
@@ -101,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667958174010</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Started Application">
+      <created>1668373382047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668373382047</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +132,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Testing repo" />
     <MESSAGE value="Added java files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added java files" />
+    <MESSAGE value="Started Application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started Application" />
   </component>
 </project>
