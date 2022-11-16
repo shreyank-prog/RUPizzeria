@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Text?>
 
 <TitledPane alignment="TOP_CENTER" animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="573.0" prefWidth="582.0" text="RU Pizzeria" textAlignment="CENTER" textFill="#101010" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
-  <content>
+   <content>
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="530.0" prefWidth="598.0">
          <children>
             <Button layoutX="94.0" layoutY="122.0" mnemonicParsing="false" prefHeight="146.0" prefWidth="180.0" text="Chicago Style">
@@ -58,6 +58,7 @@
                   <Font size="42.0" />
                </font>
             </Text>
-         </children></AnchorPane>
-  </content>
+         </children>
+      </AnchorPane>
+   </content>
 </TitledPane>

@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae764020-074c-4c46-892f-b9a42e78da65" name="Changes" comment="Started Application">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Project4/chicago.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Project4/current.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Project4/ny.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Project4/store.jpg" afterDir="false" />
+    <list default="true" id="ae764020-074c-4c46-892f-b9a42e78da65" name="Changes" comment="Created Main view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Project4/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project4/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Project4/RUPizzeriaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project4/RUPizzeriaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Project4/ChicagoStyleOrderingView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Project4/ChicagoStyleOrderingView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Project4/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Project4/MainView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +49,19 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.RUPizzeriaMain">
+    <configuration name="ChicagoStyleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project4.ChicagoStyleMain" />
+      <module name="FinalRUPizzeria" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.finalrupizzeria.HelloApplication" />
       <module name="FinalRUPizzeria" />
@@ -80,6 +91,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.RUPizzeriaMain" />
+        <item itemvalue="Application.ChicagoStyleMain" />
         <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
@@ -114,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668373382047</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created Main view">
+      <created>1668552210860</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668552210860</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +152,7 @@
     <MESSAGE value="Testing repo" />
     <MESSAGE value="Added java files" />
     <MESSAGE value="Started Application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started Application" />
+    <MESSAGE value="Created Main view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Main view" />
   </component>
 </project>

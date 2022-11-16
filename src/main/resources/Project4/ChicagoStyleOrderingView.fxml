@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="554.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="167.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chicago Style Pizza">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <ChoiceBox layoutX="51.0" layoutY="122.0" prefHeight="28.0" prefWidth="217.0" />
+      <HBox alignment="CENTER" layoutX="38.0" layoutY="158.0" prefHeight="30.0" prefWidth="248.0">
+         <children>
+            <RadioButton mnemonicParsing="false" selected="true" text="small">
+               <toggleGroup>
+                  <ToggleGroup fx:id="size" />
+               </toggleGroup>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </RadioButton>
+            <RadioButton mnemonicParsing="false" text="medium" toggleGroup="$size">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </RadioButton>
+            <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="large" toggleGroup="$size" />
+         </children>
+      </HBox>
+      <Text layoutX="51.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crust" />
+      <TextField editable="false" layoutX="93.0" layoutY="220.0" prefHeight="26.0" prefWidth="98.0" style="-fx-border-color: black;" />
+      <Text layoutX="50.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Available Toppings" />
+      <ListView layoutX="50.0" layoutY="290.0" prefHeight="170.0" prefWidth="184.0" />
+      <ListView layoutX="332.0" layoutY="290.0" prefHeight="170.0" prefWidth="178.0" />
+      <Text layoutX="332.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selected Toppings" />
+      <Text layoutX="28.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pizza Price $" />
+      <TextField editable="false" layoutX="117.0" layoutY="470.0" prefHeight="26.0" prefWidth="123.0" style="-fx-border-color: black;" />
+      <Button layoutX="366.0" layoutY="468.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="110.0" text="Add to Order" />
+      <Button layoutX="268.0" layoutY="319.0" mnemonicParsing="false" text="&gt;&gt;" />
+      <Button layoutX="268.0" layoutY="375.0" mnemonicParsing="false" text="&lt;&lt;" />
+   </children>
+</Pane>

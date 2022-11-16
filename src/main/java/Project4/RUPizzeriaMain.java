@@ -9,12 +9,19 @@ import java.io.IOException;
 
 public class RUPizzeriaMain extends Application {
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage mainStage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(RUPizzeriaMain.class.getResource("MainView.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 582, 573);
-        stage.setTitle("RU Pizzeria");
-        stage.setScene(scene);
-        stage.show();
+        Scene mainScene = new Scene(fxmlLoader.load(), 582, 573);
+        mainStage.setTitle("RU Pizzeria");
+        mainStage.setScene(mainScene);
+        mainStage.show();
+
+        Stage chicagoStage = new Stage();
+        FXMLLoader fxmlLoader1 = new FXMLLoader(RUPizzeriaMain.class.getResource("ChicagoStyleOrderingView.fxml"));
+        Scene chicagoScene = new Scene(fxmlLoader1.load(), 554, 525);
+        chicagoStage.setTitle("Chicago Style Pizza");
+        chicagoStage.setScene(chicagoScene);
+        chicagoStage.show();
     }
 
     public static void main(String[] args) {
